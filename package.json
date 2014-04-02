@@ -1,0 +1,36 @@
+{
+  "name": "NBR-Rapid-Prototyping",
+  "version": "1.0.0",
+  "description": "NBR-Rapid-Prototyping",
+  "keywords": [],
+  "author": "thomas chen <tomkit@gmail.com>",
+  "repository": "git@github.com:tomkit/nbr-rapid-prototyping.git",
+  "main": "index",
+  "homepage": "git@github.com:tomkit/nbr-rapid-prototyping.git",
+  "bugs": {
+    "url": "https://github.com/tomkit/nbr-rapid-prototyping/issues",
+    "email": "tomkit@gmail.com"
+  },
+  "dependencies": {
+    "async": "0.2.10",
+    "browserify": "3.38.0",
+    "express": "3.5.1",
+    "consolidate": "0.10.0",
+    "grunt": "0.4.4",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-browserify": "2.0.1",
+    "grunt-react": "0.7.0",
+    "literalify": "0.3.0",
+    "react": "0.10.0",
+    "request": "2.34.0",
+    "underscore": "1.6.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "engine": {
+    "node": ">= 0.8.x"
+  },
+  "private": false
+}
