@@ -1,32 +1,28 @@
 NBR Rapid Prototyping
 =====================
 
-Rapid prototyping with the following characteristics
-----------------------------------------------------
--Shared and flexible backend + frontend views
+Rapid prototyping with:
 
-Inherited characteristics from the underlying technologies
-----------------------------------------------------------
-* MVC
-* Ready-to-use CSS
-* Virtual DOM / fast rendering
-* Fast page loads + frontend rehydration
+   * Shared and flexible backend + frontend views
+   * MVC
+   * Ready-to-use CSS
+   * Virtual DOM / fast rendering
+   * Fast page loads + frontend rehydration
 
- This uses the following technologies:
-* Node
-* Backbone (For the models and collections)
-* React + JSX (For the views)
+This uses these technologies:
 
-Also uses:
-* Bootstrap
-* Express
-* Grunt
+   * Node
+   * Backbone (For the models and collections)
+   * React + JSX (For the views)
+   * Bootstrap
+   * Express
+   * Grunt
 
-Installation
-------------
+Installation:
+
 ```
 npm install
 grunt
 node backend/server.js
 ```
-Navigate to localhost:9000
+Go to http://localhost:9000
