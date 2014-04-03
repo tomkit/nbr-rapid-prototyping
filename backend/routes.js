@@ -29,7 +29,7 @@ function renderPage(res, data) {
         })
     );
     var layout = fs.readFileSync(__dirname + '/layout.html', 'ascii');
-    layout = util.format(layout, safeStringify({
+    layout = util.format(layout, html, safeStringify({
         data: data
     }));
 
